@@ -93,7 +93,7 @@ namespace Calculateur_de_distances
 
                     else
                     {
-                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides";
+                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides.";
                     }
 
                     break;
@@ -107,7 +107,7 @@ namespace Calculateur_de_distances
 
                     else
                     {
-                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides";
+                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides.";
                     }
 
                     break;
@@ -121,7 +121,7 @@ namespace Calculateur_de_distances
 
                     else
                     {
-                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides";
+                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides.";
                     }
 
                     break;
@@ -134,7 +134,7 @@ namespace Calculateur_de_distances
                     }
                     else
                     {
-                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides";
+                        label_result.Text = "Valeur incorrecte, veuillez rentrer des nombres valides.";
                     }
 
                     break;
