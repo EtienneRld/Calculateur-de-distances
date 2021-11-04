@@ -65,20 +65,16 @@ namespace Calculateur_de_distances
         }
 
         private void button_compute_Click(object sender, EventArgs e)
-        { 
-            List<Control> list = new List<Control>();
-
+        {
             int count = 0;
 
             double distance;
 
-            foreach (Control activControl in Controls)
+            foreach (Control ctrl in Controls)
             {
-                if (activControl.Visible && activControl is TextBox && activControl.Text != String.Empty)
+                if (ctrl.Visible && ctrl is Panel)
                 {
-                    list.Add(activControl);
-
-                    count++;
+                    count += 2;
                 }
             }
 
